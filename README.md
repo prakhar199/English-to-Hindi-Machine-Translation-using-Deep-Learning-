@@ -6,7 +6,7 @@ The model translates English text to Hindi text with the help of GRU. The projec
 
 Dataset : https://www.clarin.eu/resource-families/parallel-corpora
 
-The dataset consist of 2869 English phrases along with their Hindi translations. The data is given in utf-8 format.
+The dataset consist of 127607 English phrases along with their Hindi translations. The data is given in utf-8 format.
 
 Preprocessing
 The data was loaded and were plotted on a histogram with the size of the data points on 1 axis and number of datapoint with that size on the other axis. Then the graphs were obsereved to find an optimal length upto which the data should be passed to the LSTM for training. Larger sizes of datapoints which occur rarely are not of much use to us as they only increase the complexity of the training and doesn't contribute much to training. This way an optimal length of data was found above which all the datapoints were discarded. The optimal lengths were: English - 78 Hindi - 87 This way our dataset became smaller and more useful.
