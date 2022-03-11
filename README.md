@@ -20,4 +20,4 @@ Decoder
 The decoder takes in Input the states of the encoder and the Hindi data points corresponding to the English input of Encoder. It trains an GRU to produce the translated phrase in output. The decoder used Attention layer.
 
 Training
-The model was trained using GRU on Google Colab. So no use of GPU. The model was trained in parts due to lack of computational power. It was run for 100 epochs. And I trained it approx. Used cross-entropy loss. Used Adam optimizer. The data was passed to the model in batches of size 64. Latent Dimensionality of the Encoding space : 256
+The model was trained using GRU on Google Colab. So no use of GPU. The model was trained in parts due to lack of computational power. It was run for 100 epochs. Used cross-entropy loss. Used Adam optimizer. The data was passed to the model in batches of size 64. Latent Dimensionality of the Encoding space : 256
