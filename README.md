@@ -4,7 +4,7 @@ English to Hindi Machine Translation using Deep Learning
 Machine-Translation-English-to-Hindi
 The model translates English text to Hindi text with the help of GRU. The project was implemented in Keras Framework on TensorFlow. An encoder was used to convert the English phrases to feature vectors that can be trained upon and a decoder converts the output vector back to normal Hindi text (utf-8).
 
-Dataset
+Dataset : https://www.kaggle.com/aiswaryaramachandran/hindienglish-corpora
 The dataset consist of 2869 English phrases along with their Hindi translations. The data is given in utf-8 format.
 
 Preprocessing
